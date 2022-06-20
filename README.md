@@ -1,8 +1,10 @@
 
 ##Etude 7: Geojson Map Maker
+
 ######@Author Luka Didham
 
 ###Overview
+
 This Program will read in a serires of lines from either command line or a plaintext file and attempt to convert
 said line to a standard form coordinate. The program attempts to match as many various user inputs as possible
 including non-standard coordinate formats such as DMS and accounting for varying Cardinal inputs. If the program
@@ -20,7 +22,9 @@ with the "testInputs" data set. Note that no values are bunched against the edge
 that the looping strategy discussed in comments worked well.
 
 ![](img.png)
+
 ###Usage
+
 To compile use the Kotlin compiler supported in most IDE's. Created and tested
 in IntelliJ IDEA 2021.
 
@@ -36,7 +40,9 @@ After the programs runs it will prompt you to select mode by entering an int 1-3
 After the programs runs the text file "Map example.geojson" will be ready to be visualised.
 The visualiser I used for testing was https://geojson.io/#map=2/20.0/0.0. Once in geojson.io go open->file->Map example.geojson and you will see the formatted
 file put the markers on the map.
+
 ###Testing
+
 Contained within the testInputs file we can see all test cases covering most combinations
 of user possible inputs. All test cases contained within the file return successful results
 and correctly placing the marker shown in the image above.
