@@ -29,8 +29,10 @@ To compile use the Kotlin compiler supported in most IDE's. Created and tested
 in IntelliJ IDEA 2021.
 
 To manually compile from the command line run
-$ kotlinc GeoMapMaker.kt -include-runtime -d GeoMapMaker.jar
-$ java -jar GeoMapMaker.jar
+
+`kotlinc GeoMapMaker.kt -include-runtime -d GeoMapMaker.jar`
+
+`java -jar GeoMapMaker.jar`
 
 After the programs runs it will prompt you to select mode by entering an int 1-3...
 1) Command line entry
