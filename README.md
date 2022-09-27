@@ -5,9 +5,9 @@
 
 ### Overview
 
-This Program will read in a serires of lines from either command line or a plaintext file and attempt to convert
+This program will read in a serires of lines from either command line or a plaintext file and attempt to convert
 said line to a standard form coordinate. The program attempts to match as many various user inputs as possible
-including non-standard coordinate formats such as DMS and accounting for varying Cardinal inputs. If the program
+including non-standard coordinate formats such as DMS and accounting for varying cardinal inputs. If the program
 is successful in converting a line a "marker" will be created which represents one location successfully read.
 If the program is unsuccessful in converting a line will print an error message "Unable to process: " followed
 by the best fitting reason for the invalid entry.
